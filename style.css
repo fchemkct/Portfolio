@@ -70,7 +70,7 @@ figcaption {
     font: grand9k;
     color: rgba(8, 110, 81, 0.899);
     background-image: linear-gradient(rgba(15, 59, 53, 0.777), rgba(10, 113, 127, 0.086));
-    height: 6vmax;
+    height: fit-content;
     letter-spacing: 0.5vmax;
     font-size: 3vmax;
 }
