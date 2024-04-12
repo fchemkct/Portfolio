@@ -1,0 +1,290 @@
+@font-face {
+    font-family: grand9k;
+    src: url(grand9k_pixel/Grand9K\ Pixel.ttf);
+}
+
+*{
+    font-family: grand9k; 
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: grand9k;
+    margin: 0;
+    display: grid;
+    background-image: radial-gradient(rgba(41, 194, 138, 0.911), rgba(2, 10, 36, 0.983));
+    place-items: center;
+}
+
+
+figure {
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+}
+
+figure img{
+    vertical-align: top;
+}
+
+figcaption {
+    width: 100;
+    font-size: 1vmax;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    padding: 5px;
+}
+
+/* Style the header */
+.banner{
+    width: 100%;
+    height: 180vh;
+    background-image: linear-gradient(to top ,rgba(24, 37, 24, 0.501), rgba(28, 50, 39, 0.608)),
+    url(lakelowres.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    /*header */
+    padding: 0.1px;
+    text-align: center;
+    color: white; 
+    justify-content: space-between;
+}
+
+
+.img{
+    width: 30vmax;
+    
+    
+}
+
+
+/* Increase the font size of the h1 element */
+.header h1 {
+    font: grand9k;
+    color: rgba(8, 110, 81, 0.899);
+    background-image: linear-gradient(rgba(15, 59, 53, 0.777), rgba(10, 113, 127, 0.086));
+    height: 6vmax;
+    letter-spacing: 0.5vmax;
+    font-size: 3vmax;
+}
+
+.header h2 {
+    font: grand9k;
+    color: rgba(0, 0, 0, 0.899);
+    height: 6vmax;
+    letter-spacing: 0.5vmax;
+    font-size: 3vmax;
+    align-items: center;
+    text-align: center;
+}
+
+
+.para {
+    font: grand9k;
+    color:aquamarine;
+    font-size: 1.5vmax;
+    line-height: 2.3vmax;
+    text-indent: 3vmax;
+    text-align: justify;
+    width: 75%;
+    margin: auto;
+    padding: 5vmax 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* Style the top navigation bar */
+.navbar {
+    width: 97%;
+    color: rgba(55, 36, 137, 0.853);
+    margin: auto;
+    padding: 2vmax 0;
+    font-size: 1vmax;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
+}
+
+.navbar ul li{
+    font-size: 1vmax;
+    display: flex;
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+    margin: auto;
+}
+/* Style the navigation bar links, also where u space the elements in navbar */
+.navbar a {
+    font-size: 1vmax;
+    display: flex;
+    float: left;
+    display: block;
+    color: rgba(255, 255, 255, 0.571);
+    text-align: center;
+    padding: 0vmax 1vmax;
+    text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+    float: right;
+}
+
+.navbar2 {
+    width: 100%;
+    color: rgba(55, 36, 137, 0.853);
+    margin: auto;
+    padding: 0vmax;
+    font-size: 1vmax;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+
+}
+
+/* Change color on hover */
+
+
+a:hover {
+    background-color: rgba(20, 92, 31, 0.592);
+    color: black;
+    border-radius: 5%;
+  }
+
+.dropdown {
+    align-self: center;
+    position: relative;
+    display: inline-block;
+}
+
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #8a4ad3;
+    border-radius: 5%;
+    min-width: 0.5vmax;
+    box-shadow: 0px 8px 16px 0px rgba(27, 112, 208, 0.772);
+    padding: 1vmax 1.2vmax;
+    top: calc(100% + .25rem);
+    left: 0;
+    text-align: justify;
+    z-index: 1;
+}
+  
+.dropdown:hover .dropdown-content {
+    display:block;
+}
+
+.logo {
+    width: 200px;
+    cursor: pointer;
+    transition-duration: 2s;
+
+}
+
+.posts {
+    position: relative;
+    width: 85%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    font-size: 1.5vmax;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    padding: 0.000000001px;
+    background-size: cover;
+    background-position: center;
+}
+
+/*for the display with navbar in content*/
+.displayimg {
+    border-radius: 5%;
+    justify-content: space-between;
+    width: 18vmax;
+    height: 12vmax;
+    align-items: center;
+    font: grand9k;
+    color:aquamarine;
+    text-align: center;
+}
+
+.displayprj {
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30vmax;
+    height: 20vmax;
+    align-items: center;
+    font: grand9k;
+    color:aquamarine;
+    text-align: center;
+}
+
+.displaysquare {
+    justify-content: space-between;
+    width: 12vmax;
+    height: 12vmax;
+    align-items: center;
+    font: grand9k;
+    color:aquamarine;
+    text-align: center;
+}
+
+.displayfull {
+    justify-content: space-between;
+    width: 32.94vmax;
+    height: 25vmax;
+    align-items: center;
+    font: grand9k;
+    color:aquamarine;
+    text-align: center;
+}
+
+.block {
+    display: block;
+    width: 100%;
+    height: 10vmax;
+}
+/*section stuffs*/
+
+#coding123 {
+    display: block;
+}
+
+#leadership456 {
+    display: block;
+}
+
+#design789 {
+    display: block;
+}
+
+#contact2{
+    display: block;
+}
+
+#projectdiv{
+    display: block;
+}
+
+#hamter{
+    display: block;
+}
+
+#fcemstu{
+    display: block;
+}
