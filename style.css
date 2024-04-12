@@ -75,12 +75,19 @@ figcaption {
     font-size: 3vmax;
 }
 
+.space{
+    display: block;
+    height: 2rem;
+}
+
 .header h2 {
     font: grand9k;
     color: rgba(0, 0, 0, 0.899);
     height: 6vmax;
     letter-spacing: 0.5vmax;
     font-size: 3vmax;
+    margin: auto;
+    padding: 1vmax;
     align-items: center;
     text-align: center;
 }
@@ -103,6 +110,25 @@ figcaption {
 }
 
 /* Style the top navigation bar */
+.triple{
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    display: contents;
+}
+
+.double{
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    padding: 2vmax 0;
+    font-size: 1vmax;
+    display: flex;
+    align-items: baseline;
+}
+
 .navbar {
     width: 97%;
     color: rgba(55, 36, 137, 0.853);
@@ -140,18 +166,57 @@ figcaption {
     float: right;
 }
 
-.navbar2 {
-    width: 100%;
+.navbar3 {
+    width: 80%;
     color: rgba(55, 36, 137, 0.853);
-    margin: auto;
+    margin: 1px;
     padding: 0vmax;
     font-size: 1vmax;
     display: flex;
-    align-items: center;
+    align-items: baseline;
     margin-left: auto;
     margin-right: auto;
     justify-content: space-between;
 
+}
+
+.navbar2 {
+    width: 90%;
+    color: rgba(55, 36, 137, 0.853);
+    margin: 1px;
+    padding: 0vmax;
+    font-size: 1vmax;
+    display: flex;
+    align-items: baseline;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+
+}
+
+.navbar2 ul li{
+    font-size: 1vmax;
+    display: flex;
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+    margin: auto;
+}
+/* Style the navigation bar links, also where u space the elements in navbar */
+.navbar2 a {
+    font-size: 1vmax;
+    display: flex;
+    display: block;
+    color: rgba(255, 255, 255, 0.571);
+    text-align: center;
+    padding: 0vmax 1vmax;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar2 a.right {
+    float: right;
 }
 
 /* Change color on hover */
@@ -209,12 +274,26 @@ a:hover {
     background-size: cover;
     background-position: center;
 }
+.posts2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    font-size: 1.5vmax;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    padding: 0.000000001px;
+    background-size: cover;
+    background-position: center;
+}
 
 /*for the display with navbar in content*/
 .displayimg {
     border-radius: 5%;
     justify-content: space-between;
-    width: 18vmax;
+    width: calc(100vmax / 8);
     height: 12vmax;
     align-items: center;
     font: grand9k;
@@ -226,8 +305,7 @@ a:hover {
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
-    width: 30vmax;
-    height: 20vmax;
+    width: 60%;
     align-items: center;
     font: grand9k;
     color:aquamarine;
@@ -246,8 +324,7 @@ a:hover {
 
 .displayfull {
     justify-content: space-between;
-    width: 32.94vmax;
-    height: 25vmax;
+    width: 90%;
     align-items: center;
     font: grand9k;
     color:aquamarine;
