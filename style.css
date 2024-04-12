@@ -14,7 +14,7 @@ body {
     font-family: grand9k;
     margin: 0;
     display: grid;
-    background-image: radial-gradient(rgba(41, 194, 138, 0.911), rgba(2, 10, 36, 0.983));
+    background-image: radial-gradient(farthest-corner at 50% 225vmax,rgba(41, 194, 138, 0.911), rgba(2, 10, 36, 0.983));
     place-items: center;
 }
 
